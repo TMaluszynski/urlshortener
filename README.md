@@ -38,8 +38,8 @@ URLs provided in both cases are validated with standard validators library
 Duplicate entries are avoided by either checking randomized pattern samples (in the case of short url generation) or existence of the long url in the db (in such cases the existing short url is provided)
 
 possible improvements (varying effort):
-  class-based views
-  move tests to a separate folder (depends on convention)
-  more edge-case tests
-  automate testing
+  * class-based views
+  * move tests to a separate folder (depends on convention)
+  * more edge-case tests
+  * automate testing
   
