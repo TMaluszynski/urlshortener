@@ -12,7 +12,7 @@ Rozwinięcie skróconego urla do oryginalnego, czyli odwrotność poprzedniej op
 
 API:
 1. shorten the url:\
-POST: \<server ip (e.g. localhost)\>:8000/shorten\
+POST: localhost:8000/shorten\
   body: longurl = \<long url\>
 
 response: 200 if successful, 400 if long url is malformed or dead\
@@ -42,4 +42,5 @@ possible improvements (varying effort):
   * move tests to a separate folder (depends on convention)
   * more edge-case tests
   * automate testing
+  * add external API handling (parametrize the server ip - hardcoded as localhost at this time.)
   
